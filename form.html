@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>FORMS</title>
+    </head>
+    <body>
+        <fieldset style=" border-radius: 5px; border-color: black;width: 500px;">
+            <legend>Course Enrollment Form</legend>
+            <p style="margin-left: 40%;">
+                To enroll in course , fill the given form
+            </p>
+            <form style="margin-left: 30%;" >
+                <label for="name">Enter Student Name</label><br>
+                <input type="text" id="name" placeholder="Lord Hanuman">
+                <br><br>
+    
+                <label for="roll">Enter Roll No.</label><br>
+                <input type="text" id="roll" placeholder="123456788">
+                <br><br>
+                
+                <label for="sem">Choose Semester</label>
+                <select name="Semester" id="sem" multiple size="2">
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th">6th</option>
+                    <option value="7th">7th</option>
+                    <option value="8th">8th</option>
+                </select>
+    
+          <br><br>  <label for="user">User ID :</label><br/>
+            <input type="text" id="user" placeholder="abc@gmail.com">
+            <br>
+            <br>
+    
+            <label for="password">Enter Password</label><br>
+            <input type="password" id="password" placeholder="*******">
+            <br><br>
+            <label for="gend">Choose Gender</label><br>
+            <span><label for="male">Male</label> <input type="radio" name="gender" id="male"> <label for="female">Female</label> <input type="radio" name="gender" id="female"> <label for="other">Other</label> <input type="radio" name="gender" id="other"> </span>
+            <br><br>
+               
+            <span>Select the course</span><br>
+    
+            <label for="ai">AIML</label>
+            <input type="checkbox" id="ai">
+            <br>
+            <label for="web">Web Development</label>
+            <input type="checkbox" id="web">
+            <br>
+            <label for="data">Data Science</label>
+            <input type="checkbox" id="data">
+            <br><br>
+    
+            <span>Course Language</span><br><br>
+            <label for="hindi">Hindi</label>
+            <input type="radio" id="hindi" name="language">
+            <br>
+            <label for="english">English</label>
+            <input type="radio" id="english" name="language"><br><br>
+    
+            <span>Duration</span><br><br>
+            <label for="time">Select Start Date</label>
+            <input type="date" id="time"> <br>
+            <label for="time2">Select End Date</label>
+            <input type="date" id="time2">
+            <br/><br/>
+             
+            <label for="f1">Upload ID card</label> 
+            <input type="file" name="fileselector" id="f1"> <br/> <br/>
+            
+            <label for="reason1">Enter The reason Why you are enrolling in this course</label>
+            <textarea name="reason" id="reason1" placeholder="Type Here" cols="20" rows="3"></textarea> <br/> <br/>
+    
+            <br/><br/><br/><button style="background-color: skyblue;">Submit</button>
+            
+            <input type="image" id="Go1" src="Go.jpeg" width="30px" height="30px" style="margin-left: 20%;"> 
+ 
+            </form>
+        </fieldset>
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>1. What is the cost of Cousrse?</summary>
+                <span style="background-color: azure;">Cost of the course is free. But exam fees is applicable.Exam fees varies according to course. Student will recieve email regarding all the detials of enrolled course.</span>
+            </details>
+            <details>
+                <summary>2. What is the Criteria for getting certificate/</summary>
+                <span style="background-color: azure;">More than 75% score is required in exam to get certificate.</span>
+            </details>
+        </section>
+    </body>
+</html>
